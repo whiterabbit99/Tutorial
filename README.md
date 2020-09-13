@@ -3,5 +3,9 @@
 #include <cs50.h>
 {
 int main(void)
-printf("Hello, world!\n')
+int a;
+int age;
+a = get_int("What's your age?: \n");
+age = a * 365;
+printf("You are %i days old!\n", age);
 }
